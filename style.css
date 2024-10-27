@@ -1,0 +1,211 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+
+}
+
+
+.list {
+    list-style-type: none;
+    border: 3px dotted purple;
+    width: 500px;
+    margin: 20px;
+    padding: 35px;
+
+}
+
+
+
+
+
+header {
+    background-color: rgba(53, 155, 155, 0.815);
+    height: 110px;
+
+}
+
+nav a {
+    padding: 10px;
+    border: 1px rgba(0, 255, 42, 0.37);
+    border-radius: 10px;
+    font-size: 36px;
+    background-color: rgb(54, 70, 9);
+color: darkmagenta;
+}
+
+nav a:hover{
+    background-color: rgb(0, 255, 221);
+    color: rgb(184, 77, 77);
+    transition: all 1s linear;
+    
+}
+
+section{
+width:90%;
+background-color: palevioletred;
+margin: 20px auto 0;
+padding: 20px;
+}
+
+section p{
+font-size: 16px;
+color: brown;
+}
+
+iframe{
+width: 100%;
+height: 600px;
+
+}
+ div.video-container iframe{
+width: 530px;
+height: 315px;
+ }
+ .video-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+transform: translateX(-200);
+ }
+ section:hover{
+transition: all ls linear;
+background-color: cornsilk;
+ }
+ .video-section.video-section{
+    transition: all ls linear;
+    transform: translateX(0px);
+
+ }
+
+
+ .show-img{
+    width: 330px; /*ширина элемента*/
+font-size: 24px; /*Размер шрифта*/
+border: 1px solid black; /*граница (размер тип линии)*/
+padding: 20px; /*внутрений отступ*/
+text-align: center; /*распологаем текст по центру*/
+color: brown; /*изменение цвета текста*/
+margin: 0 auto 20px;
+/*внешний отступ
+(отступ вверх отсуп слева и права,отступ вниз)
+auto распологает элемент по центру 
+родительского элемента*/
+
+background-color: blueviolet; /*изменение фонового цveta*/
+ border-radius: 10px;
+ }
+ .show-img-container>img{
+opacity: 0;
+ }
+ .show-img:hover~img{
+opacity: 1;
+transition: all 3s linear;
+ }
+ td img{
+width: 100px;
+height: 10px;
+ }
+
+ table{
+text-align: center;
+font-size: 24px;
+width: 100%;
+ }
+
+ td, th{
+border: 2px solid black;
+padding: 5px;
+ }
+ tr:nth-child(even){
+background-color: #f2f2f2f2;
+ }
+
+ tr:nth-child(odd){
+background-color: rgb(242, 242, 242);
+ }
+ 
+ tr:hover{
+background-color: #ff0000;
+ }
+
+nav{
+text-align: center;
+padding: 30px;
+}
+
+.w-70{
+width: 70%;
+
+}
+
+.w-30{
+width: 30%;
+
+}
+
+.two-cards{
+display: flex;
+gap: 30px;
+}
+
+.card{
+border-radius: 15px;
+padding: 10px;
+background-color: blue;
+}
+th{
+padding-top: 8px;
+padding-bottom: 8px;
+background-color: chocolate;
+color: white;
+}
+.doyoulikemyswordswordswordmydiamondsword{
+list-style-type: 0;
+border: 3px dotted black;
+width: 500px;
+margin: 20px;
+padding: 35px;
+}
+ul{
+text-align: center;
+}
+
+
+
+.galery-container{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+.galery{
+width: 90%;
+}
+.zoom{
+    display: block;
+    width: 85%;
+    margin: auto;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.galery-item{
+margin-top: 10px;
+border: 1px solid black;
+float: left;
+width: 100%;
+background: #ff0000;
+}
+
+.zoom:hover{
+transform: scale(1.05);
+transition: all 0.3s linear
+}
+
+.desc{
+font-size: 18px;
+color: blue;
+padding-left: 30px;
+}
